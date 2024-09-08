@@ -4,7 +4,8 @@ Bone age training using the RSNA dataset.
 
 EfficientNetV2L trains to an MAE of 4.35 on the test dataset. I have improved this by using a ResNet model and MobileNet model as a very simple ensemble with the MAE reaching 3.67 months. I very much need to obtain a larger teat dataset.
 </p>
-![AI model performance](https://github.com/user-attachments/assets/c9b180fc-9b0a-4ee7-bfce-78c8fb52f2ab)
+![AI model performance](https://github.com/user-attachments/assets/19e5a395-45e1-4b02-ac19-c040dcbc3263)
+
 
 Things that work well:<br><br>
 
