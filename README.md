@@ -14,6 +14,8 @@ Batch normalisation<br>
 Dropout<br>
 EfficientNet with imagenet weights - much slower to train, uses more memory, but better MAE<br>
 ResNet without pretrained weights - much faster to train and uses less memory.<br>
+ReduceLRonPlateau - I have to tweak the patience according to which network I am training.
+Early stopping - again, I have to tweak the patience - it is hard not to set it too high!
 
 Things I cannot get to work:<br><br>
 Using two GPUs<br>
