@@ -6,16 +6,16 @@ EfficientNetV2L trains to an MAE of 4.35 on the test dataset. I have improved th
 
 ![AI model performance](https://github.com/user-attachments/assets/c9b180fc-9b0a-4ee7-bfce-78c8fb52f2ab)
 
-Things that work well:
+Things that work well:<br><br>
 
-Albumentations
-Mixed precision training seems to work.
-Batch normalisation
-Dropout
-EfficientNet with imagenet weights - much slower to train, uses more memory, but better MAE
-ResNet without pretrained weights - much faster to train and uses less memory.
+Albumentations<br>
+Mixed precision training seems to work.<br>
+Batch normalisation<br>
+Dropout<br>
+EfficientNet with imagenet weights - much slower to train, uses more memory, but better MAE<br>
+ResNet without pretrained weights - much faster to train and uses less memory.<br>
 
-Things I cannot get to work:
-Using two GPUs
-Gradient accumulation
-Saving only one model per epoch
+Things I cannot get to work:<br><br>
+Using two GPUs<br>
+Gradient accumulation<br>
+Saving only one model per epoch<br>
