@@ -26,4 +26,5 @@ Saving only one model per epoch<br>
   Sort out validation sets and train using different validation sets for different networks then reducing validation sizes<br>
   Learning rate warm up and cyclical learning rate<br>
   Retrain networks<br>
+  Do a proper ensemble<br>
 </p>
